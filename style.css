@@ -1,0 +1,55 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.head{
+    display: flex;
+    gap: 70px;
+    background-color:rgb(223, 211, 195);
+    width: 100%;
+}
+
+.menu{
+    padding: 20px;
+}
+
+.menu:hover{
+    background-color: rgb(208, 184, 168);
+    border-radius: 5px;
+}
+
+.user-img{
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.title{
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-around;
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(176, 110, 95);
+    padding: 10px;
+}
+
+.content:hover{
+    background-color: rgb(208, 184, 168);
+    border-radius: 5px;
+}
+
+div{
+    font-size: 20px;
+    width: 180px;
+    text-align: center;
+    font-weight: bold;
+}
